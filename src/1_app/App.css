@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("/font/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+:root {
+  color: #1a1a1a;
+}
+
+body {
+  background-color: #f6f7f8;
+  padding-top: 25px;
+  font-family: "Inter", sans-serif;
+}
